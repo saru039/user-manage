@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    font-family: "montserrat", sans-serif;
+    font-size: 1rem;
+    color: #fff !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #b2c221 !important;
+}
+nav h1{
+    font-family: "montserrat", sans-serif;
+}

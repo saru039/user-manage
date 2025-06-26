@@ -1,0 +1,78 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.form-column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.form-column input{
+    width: 90%;
+    height: 40px;
+    margin-bottom : 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.form-column textarea{
+    width: 90%;
+    margin-bottom : 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.form-column input:focus,
+.form-column textarea:focus{
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.form-column h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-column button{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.form-column button:hover{
+    background-color: green;
+}
+
+.success-notification{
+    margin-top: 20px;
+    color: green;
+    font-size: 15px;
+}
+
+.fail-notification{
+    margin-top: 20px;
+    color: red;
+    font-size: 15px;
+}

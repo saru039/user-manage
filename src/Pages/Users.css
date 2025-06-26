@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+table{
+    border: 1px solid #ccc;
+    width: 50%;
+    height: fit-content;
+    background-color: #fff;
+}
+
+table thead{
+    background-color: blue;
+    color: #fff;
+}
+
+table th, table td{
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table button{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
